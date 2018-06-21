@@ -100,12 +100,16 @@ var _require = __webpack_require__(158),
     IndexRoute = _require.IndexRoute,
     Main = _require.Main,
     About = _require.About,
+    Upload = _require.Upload,
+    Editing = _require.Editing,
     MovieList = _require.MovieList,
     hashHistory = _require.hashHistory;
 
 var Main = __webpack_require__(221);
 var MovieList = __webpack_require__(223);
 var About = __webpack_require__(224);
+var About = __webpack_require__(225);
+var About = __webpack_require__(226);
 
 ReactDOM.render(React.createElement(
   Router,
@@ -114,6 +118,8 @@ ReactDOM.render(React.createElement(
     Route,
     { path: "/", component: Main },
     React.createElement(Route, { path: "about", component: About }),
+    React.createElement(Route, { path: "upload", component: Upload }),
+    React.createElement(Route, { path: "editing", component: Editing }),
     React.createElement(IndexRoute, { component: MovieList })
   )
 ), document.getElementById("app"));
@@ -25401,7 +25407,8 @@ var React = __webpack_require__(1);
 var Nav = __webpack_require__(222);
 var MovieList = __webpack_require__(223);
 var About = __webpack_require__(224);
-
+var About = __webpack_require__(225);
+var About = __webpack_require__(225);
 // In this file I figure out how to show a movie.
 
 var Main = React.createClass({
@@ -25452,29 +25459,25 @@ var Nav = React.createClass({
         "| ",
         React.createElement(
           Link,
-          { to: "/About" },
+          { to: "/about" },
           "About"
         ),
         "| ",
         React.createElement(
           Link,
-          { to: "/Upload" },
+          { to: "/upload" },
           "Upload videos"
         ),
         "| ",
         React.createElement(
           Link,
-          { to: "/Editing" },
+          { to: "/editing" },
           "Editing data"
         ),
         "|",
         React.createElement("br", null)
       )
-    )
-    // <div >
-    // <h2>Welcome to Theatherflix</h2> | <Link to="/">Home</Link> | <Link to="/about">About</Link>
-    // </div>
-    ;
+    );
   }
 });
 
@@ -25489,6 +25492,9 @@ module.exports = Nav;
 
 var React = __webpack_require__(1);
 
+var _require = __webpack_require__(158),
+    Link = _require.Link;
+
 var MovieList = React.createClass({
   displayName: "MovieList",
 
@@ -25497,8 +25503,8 @@ var MovieList = React.createClass({
       "div",
       { className: "container" },
       React.createElement(
-        "a",
-        { href: "/sleepers" },
+        "link",
+        { to: "/sleepers" },
         React.createElement("img", {
           src: "./movies-imgs/sleepers.jpg",
           border: "0",
@@ -25507,8 +25513,8 @@ var MovieList = React.createClass({
         })
       ),
       React.createElement(
-        "a",
-        { href: "/jobs" },
+        "link",
+        { to: "/jobs" },
         React.createElement("img", {
           src: "./movies-imgs/jobs.jpg",
           border: "0",
@@ -25517,8 +25523,8 @@ var MovieList = React.createClass({
         })
       ),
       React.createElement(
-        "a",
-        { href: "/claireinmotion" },
+        "link",
+        { to: "/claireinmotion" },
         React.createElement("img", {
           src: "./movies-imgs/claireinmotion.jpg",
           border: "0",
@@ -25527,8 +25533,8 @@ var MovieList = React.createClass({
         })
       ),
       React.createElement(
-        "a",
-        { href: "/looper" },
+        "link",
+        { to: "/looper" },
         React.createElement("img", {
           src: "./movies-imgs/looper.jpg",
           border: "0",
@@ -25537,8 +25543,8 @@ var MovieList = React.createClass({
         })
       ),
       React.createElement(
-        "a",
-        { href: "/wofw2005" },
+        "link",
+        { to: "/wofw2005" },
         React.createElement("img", {
           src: "./movies-imgs/wofw2005.jpg",
           border: "0",
@@ -25547,8 +25553,8 @@ var MovieList = React.createClass({
         })
       ),
       React.createElement(
-        "a",
-        { href: "/silence" },
+        "link",
+        { to: "/silence" },
         React.createElement("img", {
           src: "./movies-imgs/silence.jpg",
           border: "0",
@@ -25557,8 +25563,8 @@ var MovieList = React.createClass({
         })
       ),
       React.createElement(
-        "a",
-        { href: "/interestelar" },
+        "link",
+        { to: "/interestelar" },
         React.createElement("img", {
           src: "./movies-imgs/interestelar.jpg",
           border: "0",
@@ -25567,8 +25573,8 @@ var MovieList = React.createClass({
         })
       ),
       React.createElement(
-        "a",
-        { href: "/americanhistoryx" },
+        "link",
+        { to: "/americanhistoryx" },
         React.createElement("img", {
           src: "./movies-imgs/americanhx.jpg",
           border: "0",
@@ -25595,15 +25601,61 @@ var About = React.createClass({
   displayName: "About",
 
   render: function render() {
-    return React.createElement(
-      "div",
-      { className: "container" },
+    React.createElement(
+      "section",
+      { className: "nav" },
       "About"
     );
   }
 });
 
 module.exports = About;
+
+/***/ }),
+/* 225 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var React = __webpack_require__(1);
+
+var Upload = React.createClass({
+  displayName: "Upload",
+
+  render: function render() {
+    return React.createElement(
+      "div",
+      { className: "nav" },
+      "Upload"
+    );
+  }
+});
+
+module.exports = Upload;
+
+/***/ }),
+/* 226 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var React = __webpack_require__(1);
+
+var Editing = React.createClass({
+  displayName: "Editing",
+
+  render: function render() {
+    return React.createElement(
+      "div",
+      { className: "nav" },
+      "Editing"
+    );
+  }
+});
+
+module.exports = Editing;
 
 /***/ })
 /******/ ]);
