@@ -1,3 +1,6 @@
+/***********************
+ * Module dependencies *
+ ***********************/
 var React = require('react');
 
 var Nav = React.createClass({
@@ -8,4 +11,7 @@ var Nav = React.createClass({
   }
 });
 
+/****************
+ * Export Nav   *
+ ***************/
 module.exports = Nav;

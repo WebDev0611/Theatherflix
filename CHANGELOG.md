@@ -39,12 +39,16 @@ We're moving to React - Redux the whole project will be unstable. To make it fas
 
 # **(Future version)**
 |- Future: creating an algorithm for AI. Why? To read an specific folder for movies or an external source, loading automatically    |movies and its images or sources related. The code behind Theatherflix will learn by itself. 
+
 |
 |- Perhaps using mongoDB - For some functionalities. Not sure. Any additional idea on this is greatly welcome.
+
 |
 |- Create a different way to stream the videos (movies)... Perhaps we will have to work a lot in the back-end.
+
 |
 |- Another thing: the folder movies-db should be changed by the sync path that automatically read the back end of the system. It    |could read any port of any device, sorta like USB. 
+
 |
 |- We must to create a way to load the images of the movies, or load a specific icon, or to load the images that are related with   |the movie (in the external HD) sorta like reading the metadata ... or something like that. Otherwise just an icon. How? We gotta   |engineer that. 
 |
@@ -58,6 +62,7 @@ We're moving to React - Redux the whole project will be unstable. To make it fas
 ## Current stage of the project
 #
 What do we have now? present stages.
+- UNIT testing - Redux
 #
 We have moved to React! 5-2-2018 (Doing now)
 
@@ -72,7 +77,7 @@ We have moved to React! 5-2-2018 (Doing now)
 - The movie folder 'movies-db' must be created and stored with *.mp4 files in order to list movies.
 
 - Additionally you must get the images related with the movie and put them in the folder 'movies-imgs'.
-- Future creating of an algorithm to create AI to read an specific folder for movies or an external source, loading atuomatically movies and its images or sources related.
+- Future creating of an algorithm to create AI to read an specific folder for movies or an external source, loading automatically movies and its images or sources related.
 - Perhaps using mongoDB (Seriously for some things we could use MondoDB)
 - We have move all to React! (we need to think on how to create a best project with React and Redux)
 - create a different way to stream the videos...  (the movies)

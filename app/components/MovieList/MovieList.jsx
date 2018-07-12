@@ -74,4 +74,8 @@ var MovieList = React.createClass({
   }
 });
 
+
+/**********************
+ * Export MovieList   *
+ *********************/
 module.exports = MovieList;

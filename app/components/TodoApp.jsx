@@ -1,6 +1,12 @@
-var React = require('react');
-var uuid = require('node-uuid');
-var moment = require('moment');
+/***********************
+ * Module dependencies *
+ ***********************/
+import React from 'react';
+import uuid from 'node-uuid';
+import moment from 'moment';
+// var React = require('react');
+// var uuid = require('node-uuid');
+// var moment = require('moment');
 
 import TodoList from 'TodoList';
 import AddTodo from 'AddTodo';
@@ -25,4 +31,8 @@ var TodoApp = React.createClass({
   }
 });
 
+
+/******************
+ * Export TodoApp   *
+ ******************/
 module.exports = TodoApp;

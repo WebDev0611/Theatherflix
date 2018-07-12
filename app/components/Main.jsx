@@ -1,3 +1,6 @@
+/***********************
+ * Module dependencies *
+ ***********************/
 var React = require("react");
 var Nav = require("./Nav/Nav.jsx");
 var MovieList = require("./MovieList/MovieList.jsx");
@@ -19,4 +22,7 @@ var Main = React.createClass({
   }
 });
 
+/******************
+ * Export Main    *
+ ******************/
 module.exports = Main;

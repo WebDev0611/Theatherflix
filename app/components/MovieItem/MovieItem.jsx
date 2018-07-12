@@ -10,4 +10,7 @@ var MovieItem = React.createClass({
   }
 });
 
+/**********************
+ * Export MovieItem   *
+ *********************/
 module.exports = MovieItem;

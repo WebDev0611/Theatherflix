@@ -10,4 +10,8 @@ var Upload = React.createClass({
   }
 });
 
+
+/*******************
+ * Export Upload   *
+ ******************/
 module.exports = Upload;

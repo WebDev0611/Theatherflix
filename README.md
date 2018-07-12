@@ -98,8 +98,8 @@ https://nodeio-labs.slack.com.
 Before any commit, don't forget this: (or we could lose all the work that other engineers and developers in the project could have done)
 1. `git pull`
 
-2. `git add .` (your contribs.)
-3.  your contribs - commits ...
+2. `git add .` (your contribution.)
+3.  your contribution - commits ...
 
 
 ## Installation

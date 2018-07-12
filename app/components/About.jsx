@@ -15,5 +15,3 @@ var About = React.createClass({
  * Export About   *
  ******************/
 module.exports = About;
-
-

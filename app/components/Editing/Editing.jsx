@@ -10,4 +10,7 @@ var Editing = React.createClass({
   }
 });
 
+/********************
+ * Export Editing   *
+ *******************/
 module.exports = Editing;

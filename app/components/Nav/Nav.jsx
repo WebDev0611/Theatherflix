@@ -1,7 +1,5 @@
 var React = require("react");
 
-
-
 var { Link } = require("react-router");
 //import './Nav.scss';
 
@@ -23,4 +21,8 @@ var Nav = React.createClass({
   }
 });
 
+
+/****************
+ * Export Nav   *
+ ***************/
 module.exports = Nav;

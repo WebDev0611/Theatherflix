@@ -1,7 +1,14 @@
+/***********************
+ * Module dependencies *
+ ***********************/
 var React = require('react');
 var {connect} = require('react-redux');
 var actions = require('actions');
 
+
+/***********************
+ * Export TodoSearch   *
+ **********************/
 export var TodoSearch = React.createClass({
   render: function(){
     var {dispatch, showCompleted, searchText} = this.props;
