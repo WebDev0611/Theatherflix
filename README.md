@@ -1,13 +1,13 @@
 # Theatherflix Open Source Project 
 
-<p align="center"><a href="https://github.com/NodeioLabs/Theatherflix" target="_blank" rel="noopener noreferrer"><img width="400" src="https://user-images.githubusercontent.com/36637989/41645883-3671a30a-746a-11e8-90d5-540fe0ff6abf.png" alt="logo"></a></p>
+<p align="center"><a href="https://github.com/MoodyLabs/Theatherflix" target="_blank" rel="noopener noreferrer"><img width="400" src="https://user-images.githubusercontent.com/36637989/41645883-3671a30a-746a-11e8-90d5-540fe0ff6abf.png" alt="logo"></a></p>
 
 *logo created by Dee-y | https://github.com/dee-y  | (Graphic Designer - Contrib) (Contributor of the project)
 
  [It's a project constructed with the foundations of NodeJS + React.JS + Redux - React-native - JavaScript - in the future also Python  for AI & Machine Learning unless we could cover or write it with JS, which is very probable.]
 #
 
-[![CircleCI](https://circleci.com/gh/NodeioLabs/Theatherflix/tree/master.svg?style=svg)](https://circleci.com/gh/NodeioLabs/Theatherflix/tree/master)
+[![CircleCI](https://circleci.com/gh/MoodyLabs/Theatherflix/tree/master.svg?style=svg)](https://circleci.com/gh/MoodyLabs/Theatherflix/tree/master)
 
        If you like to study these topics, don't hesitate to join it! 
     ---------------------------------------------------------------------------------------------------------------------------------
@@ -24,7 +24,7 @@ Alpha v2.3.2 (rvc1.0) [Coming soon beta and release-candidate] - Codename -Boing
 #
 ## IRC
 
-   Join us in the IRC server: /server irc.freenode.net - channel: /j #nodeiolabs 
+   Join us in the IRC server: /server irc.freenode.net - channel: /j #MoodyLabs 
     
     -(admin nickname: SoulBlue [Felipe, Founder of the project])
     -
