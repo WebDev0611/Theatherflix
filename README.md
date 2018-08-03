@@ -131,7 +131,7 @@ If you want to run the latest code from git, here's how to get started:
 
 1. Clone the code:
 
-        git clone git@github.com:NodeioLabs/theatherflix.git
+        git clone git@github.com:MoodyLabs/theatherflix.git
         cd theatherflix
 
 2. Install the theatherflix dependencies
