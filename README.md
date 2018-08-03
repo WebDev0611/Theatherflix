@@ -65,7 +65,7 @@ https://github.com/MoodyLabs/Theatherflix/tree/development
 2. `npm install` (We can use Yarn too)
 3. node (or nodemon) server.js 
 
-[*] If you are going to work inside of the project please inform, and them comment everything and please from now on (12-04-2018) add your email, name and date inside of the code you might add, as part of a comment; and keep working always in the development branch first. (Don't forget to use the 'issues' inside of the Github platform as well as please keep checking the progress of the [project](https://github.com/NodeioLabs/Theatherflix/projects/5).).-
+[*] If you are going to work inside of the project please inform, and them comment everything and please from now on (12-04-2018) add your email, name and date inside of the code you might add, as part of a comment; and keep working always in the development branch first. (Don't forget to use the 'issues' inside of the Github platform as well as please keep checking the progress of the [project](https://github.com/MoodyLabs/Theatherflix/projects/5).).-
 
 
 ## The first version where all begun. It's in the Old_branch
@@ -73,7 +73,7 @@ If you want to download the old version stored, go to the old branch ->
 https://github.com/MoodyLabs/Theatherflix/tree/old_branch
 
 #If you want to clone the old branch follow this:
-1. `git clone -b old_branch --single-branch git@github.com:NodeioLabs/Theatherflix.git`
+1. `git clone -b old_branch --single-branch git@github.com:MoodyLabs/Theatherflix.git`
 2. `cd old_branch` (which is downloaded as a folder named 'Theatherflix' though, you rename it)
 2. `npm install` (We can use Yarn too)
 3. node (or nodemon) server.js
